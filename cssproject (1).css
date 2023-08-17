@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    background-color: aquamarine;
+}
+.name{
+    color: lightgreen;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.left-bar{
+    background-color: rgba(0, 0, 0, 0.831);
+    height: 100vh;
+    width: 35%;
+    text-align: center;
+    padding: 50px 20px 100px 20px;
+}
+.links{
+    line-height: 50px;
+    font-size: 30px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    transition: 0.15s;
+}
+.link:hover{
+    font-size: 33px;
+    color: red;
+}
+.icons{
+    font-size: 60px;
+}
+.icon{
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.014);
+    color: white;
+    border: none;
+    transition: 0.15s;
+}
+.icon:hover{
+    font-size: 30px;
+    color: coral;
+}
+.right-bar{
+    padding: 150px 30px 40px 40px;
+}
+.hi{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: rgb(43, 52, 226);
+}
+.iam{
+    font-size: 40px;
+    color: orangered;
+    margin-bottom: 20px;
+}
+.fdev{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.info{
+    word-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.about{
+    background-color: orange;
+    color: white;
+    padding: 12px;
+    border: none;
+    transition: 0.15s;
+}
+.about:hover{
+    background-color: rgba(0, 0, 0, 0.408);
+    width: 100px;
+}
+.right-about{
+    background-color: aquamarine;
+    padding: 40px;
+}
+.heading-aboutme{
+    color: maroon;
+    margin-bottom: 20px;
+}
+.myname{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+.aboutInfo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+span{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(192, 72, 29);
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+.download{
+    background-color: orange;
+    color: white;
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+    width: 130px;
+}
+.hire{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+    width: 100px;
+}
+.right-education{
+    background-color: chocolate;
+    padding: 30px;
+    width: 100%;
+}
+.head-edu{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.my{
+    color: darkred;
+    font-size: 30px;
+}
+.school-diploma{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.school,.diploma{
+    border: 1px solid;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 30px;
+    width: 300px;
+    border: none;
+}
+.school{
+    margin-left: 150px;
+}
+.head-school,.head-diploma,.head-graduate{
+    color: orangered;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.schname,.dipname,.duration,.percentage{
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+}
+.graduate{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.project1,.project2,.project3{
+    border: 1px solid ;
+    border: none;
+}
+.project-details{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 4%;
+    padding: 4%;
+}
+.h3{
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(104, 237, 67);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.p{
+    font-size: 30px;
+    padding: 12px;
+}
+.h1{
+    text-align: center;
+    color: rgb(59, 45, 154);
+    font-size: 40px;
+}
+.inter{
+    text-align: center;
+    color: rgb(59, 45, 154);
+    font-size: 40px;
+}
+.deen{
+    font-size: 20px;
+    color: indianred;
+}
+.go-home a{
+    text-decoration: none;
+    color: white;
+}
+.go-home{
+    margin-top: 20px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
